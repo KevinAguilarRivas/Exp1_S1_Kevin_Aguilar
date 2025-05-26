@@ -21,6 +21,7 @@ public class Movimientos {
                 System.out.println("============================================");
                  while(!scanner.hasNextInt()){
                      System.out.println("Monto invalido. Ingrese un numero valido: ");
+                     scanner.nextLine();
                  }
                  int montoDeposito = scanner.nextInt();
                  scanner.nextLine();
@@ -48,6 +49,7 @@ public class Movimientos {
                 System.out.println("============================================");
                 while(!scanner.hasNextInt()){
                      System.out.println("Monto invalido. Ingrese un numero valido: ");
+                     scanner.nextLine();
                  }
                  int montoGiro = scanner.nextInt();
                  scanner.nextLine();
